@@ -7,25 +7,31 @@ Prebuilt binary (all platforms)
 1. Download the ```Caterra``` archive for your platform from this Releases page.
 2. Extract the downloaded archive.
 3. Move the extracted ```caterra``` binary to somewhere in your PATH:
-
-    === "macOS"
-
+    <details>
+    <summary>macOS</summary>
+  
         shell
         mv caterra /usr/local/bin
 
-    === "Linux"
-
+    </details>
+    <details>
+    <summary>Linux</summary>
+  
         shell
         sudo mv caterra /usr/local/bin
 
-    === "Windows (cmd)"
-
+    </details>
+    <details>
+    <summary>Windows (cmd)</summary>
+  
         md C:\caterra\bin
         move caterra.exe C:\caterra\bin
         setx PATH "%PATH%;C:\caterra\bin"
-    
-    === "Windows (PowerShell)"
 
+    </details>
+    <details>
+    <summary>Windows (PowerShell)</summary>
+  
         powershell
         md C:\caterra\bin
         move caterra.exe C:\caterra\bin
@@ -33,6 +39,8 @@ Prebuilt binary (all platforms)
         # You can add '$env:Path += ";C:\caterra\bin"' to your profile.ps1 file to
         # persist that change across shell sessions.
 
+    </details>
+        
 4. _Windows users only:_ Close cmd and re-open it so the changes take effect.
 5. You can now run `caterra`.
 
@@ -58,21 +66,21 @@ Prebuilt binary (all platforms)
 
 1.  Run caterra 
 
-        regula scan infra_tf
+        caterra scan infra_tf
 
 
 ## Add Rule to exclusion  
 
 1. Run caterra 
 
-        regula scan infra_tf
+        caterra scan infra_tf
 
 
 ## Add some Resource to exclusion  
 
 1. Run caterra 
 
-        regula scan infra_tf
+        caterra scan infra_tf
 
 
 
