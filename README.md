@@ -1,3 +1,12 @@
+# Download
+
+| File     | Описание |
+| ---      | ---       |
+| [caterra_1.0.0_windows_x86_64.zip](https://cloudadvisor.ru/r/) | Windows executable         |
+| [caterra_1.0.0_macos_arm.zip](https://cloudadvisor.ru/r/) | Mac OS executable         |
+| [caterra_1.0.0_linux_x86_64.zip](https://cloudadvisor.ru/r/) | CentOS Linux         |
+| [caterra_1.0.0_freebsd_x86_64.zip](https://cloudadvisor.ru/r/) | FreeBSD  |
+
 # Getting Started
 
 ## Installation
