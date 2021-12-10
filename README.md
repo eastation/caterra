@@ -90,7 +90,7 @@ Prebuilt binary (all platforms)
 You may wish to ignore some warnings. If you'd like to do so, you can simply add a 
 comment containing `ca:ignore:<rules>` to  your templates. 
 
-For example, to ignore a non dns compliant bucket name rule:
+For example, to ignore a DNS non-compliant bucket name:
 
 ```hcl
 resource "yandex_storage_bucket" "dns" {
