@@ -1,6 +1,6 @@
 # Download
 
-| File     | Описание |
+| File     | Description |
 | ---      | ---       |
 | [caterra_1.0.0_windows_x86_64.zip](https://cloudadvisor.ru/r/) | Windows executable         |
 | [caterra_1.0.0_macos_arm.zip](https://cloudadvisor.ru/r/) | Mac OS executable         |
@@ -13,9 +13,10 @@
 
 Prebuilt binary (all platforms)
 
-1. Download the ```Caterra``` archive for your platform from this Releases page.
-2. Extract the downloaded archive.
-3. Move the extracted ```caterra``` binary to somewhere in your PATH:
+1. Generate a Caterra access token in the CloudAdvisor console, under Settings > Terraform.
+2. Download the ```Caterra``` archive for your platform from this Releases page.
+3. Extract the downloaded archive.
+4. Move the extracted ```caterra``` binary to somewhere in your PATH:
     <details>
     <summary>macOS</summary>
     
@@ -50,6 +51,7 @@ Prebuilt binary (all platforms)
         md C:\caterra\bin
         move caterra.exe C:\caterra\bin
         setx PATH "%PATH%;C:\caterra\bin"
+    _Windows users only:_ Close cmd and re-open it so the changes take effect.
 
     </details>
     <details>
@@ -61,10 +63,9 @@ Prebuilt binary (all platforms)
         $env:Path += ";C:\caterra\bin"
         # You can add '$env:Path += ";C:\caterra\bin"' to your profile.ps1 file to
         # persist that change across shell sessions.
-
+    _Windows users only:_ Close cmd and re-open it so the changes take effect.
     </details>
 
-4. _Windows users only:_ Close cmd and re-open it so the changes take effect.
 5. You can now run `caterra`.
 
 ## Usage
