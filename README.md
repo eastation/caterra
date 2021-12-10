@@ -82,14 +82,13 @@ Prebuilt binary (all platforms)
               Set the output format: text (default), json.
 
       --severity
-              Set minimal severity to pass: HIGH, MEDIUM, LOW. 
-
+             Set the minimum severity that will result in a non-zero exit code: high, medium, low (default)
+ 
 
 ## Ignoring Warnings
 
-You may wish to ignore some warnings. If you'd like to do so, you can
-simply add a comment containing `ca:ignore:<rules>` to the offending
-line in your templates. 
+You may wish to ignore some warnings. If you'd like to do so, you can simply add a 
+comment containing `ca:ignore:<rules>` to  your templates. 
 
 For example, to ignore a non dns compliant bucket name rule:
 
